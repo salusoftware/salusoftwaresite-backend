@@ -1,0 +1,55 @@
+# Dependências do Node.js
+node_modules
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Builds
+dist
+build
+
+# Variáveis de ambiente e credenciais
+.env
+.env.*.local
+
+# Logs
+*.log
+logs
+logs/*.log
+pids
+*.pid
+*.pid.lock
+
+# Sentry ou monitoramento de erros
+.sentryclirc
+
+# Cache do TypeScript e arquivos de compilação
+*.tsbuildinfo
+*.d.ts
+.cache
+
+# Configurações do editor de código e sistema operacional
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Cache de test runners
+.jest/
+coverage/
+
+# Configurações de PM2 e outros gerenciadores de processos
+pm2-logs/
+pm2.log
+pids.json
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Docker (caso use Docker em desenvolvimento)
+docker-compose.override.yml
+
+# Arquivos e diretórios opcionais que podem ser específicos ao projeto
+/.eslintcache
+/coverage
