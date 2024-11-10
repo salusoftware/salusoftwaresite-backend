@@ -8,6 +8,11 @@ import routes from './app/config/routes'
 const app = express();
 
 app.use(helmet());
+
+app.use(helmet.noSniff());
+app.use(helmet.xssFilter());
+app.use(helmet.hidePoweredBy());
+
 app.use(express.json())
 app.use(routes)
 
